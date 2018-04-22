@@ -450,7 +450,7 @@ public class MainActivity extends AppCompatActivity {
             sendSMS(intt.getStringExtra("contact3"), msg);
             sendSMS(intt.getStringExtra("contact4"), msg);*/
 
-            sendSMS("01041002071", msg);
+            sendSMS("010", msg);
             Log.i("GPSListener", msg);
             /*PHPRequest registerRequest = new PHPRequest(lat, lon, userNum, responseListener);
             RequestQueue queue = Volley.newRequestQueue(MainActivity.this);
